@@ -1,21 +1,27 @@
 # 📚 Word Spring - Vocabulary Builder Chrome Extension
 
 **Word Spring** is a powerful Chrome extension that helps you learn new words while browsing the web. Double-click any word to see its definition, synonyms, antonyms, etymology, and more. Save words to build your personal vocabulary list and enhance your reading experience with customizable themes and fonts.
+<img width="1123" height="870" alt="image" src="https://github.com/user-attachments/assets/89ca52e5-0c8a-4b82-b202-1feab12da403" />
 
 ---
 
 # 🚀 Quick Start
 
-Download Latest Release - Get word-spring-v1.1.0.zip
-Extract the ZIP file to a permanent folder
-Open chrome://extensions/ in Chrome
-Enable "Developer mode" (top right)
-Click "Load unpacked" and select the extracted folder
-Done! Double-click any word on any webpage to start learning
+- Download Latest Release - Get word-spring-v1.1.0.zip
+- Extract the ZIP file to a permanent folder
+- Open chrome://extensions/ in Chrome
+- Enable "Developer mode" (top right)
+- Click "Load unpacked" and select the extracted folder
+- Done! Double-click any word on any webpage to start learning
+
 
 ---
 
 ## ✨ Features
+
+
+<img width="849" height="960" alt="Screenshot 2025-12-18 082043" src="https://github.com/user-attachments/assets/a4286a2f-ee1c-4ddb-be8b-c1d40f1106b0" />
+<img width="597" height="550" alt="Screenshot 2025-12-18 082005" src="https://github.com/user-attachments/assets/07b3983a-cc40-4fce-9142-14ba6a25c6da" />
 
 ### 📖 Smart Word Lookup
 - **Double-click any word** on any webpage to instantly see its definition
@@ -74,22 +80,35 @@ Done! Double-click any word on any webpage to start learning
 2. **Open Chrome Extensions page**
    - Navigate to `chrome://extensions/`
    - Or click Menu (⋮) → More Tools → Extensions
+   - <img width="727" height="742" alt="Screenshot 2025-12-18 081134" src="https://github.com/user-attachments/assets/9bb3b35e-2865-4ab1-93ed-d9434045798c" />
+
 
 3. **Enable Developer Mode**
    - Toggle the "Developer mode" switch in the top right corner
+   - <img width="1919" height="643" alt="Screenshot 2025-12-18 081212" src="https://github.com/user-attachments/assets/80427920-8f74-446f-a02c-ef0702716ca5" />
+
 
 4. **Load the extension**
    - Click "Load unpacked"
    - Select the folder containing the extension files
    - The extension should now appear in your extensions list
+   - <img width="1919" height="528" alt="Screenshot 2025-12-18 081228" src="https://github.com/user-attachments/assets/79c81781-091c-4923-905b-2eb179697a19" />
+   <img width="1050" height="553" alt="Screenshot 2025-12-18 081300" src="https://github.com/user-attachments/assets/7609c181-c14c-4808-9605-64f7f42c908f" />
+
+
 
 5. **Pin the extension** (Optional but recommended)
    - Click the puzzle icon in Chrome toolbar
    - Find "Word Spring" and click the pin icon
+   - <img width="460" height="332" alt="Screenshot 2025-12-18 081656" src="https://github.com/user-attachments/assets/302aada5-f7bb-4075-bba6-2c2267939b05" />
+
 
 ---
 
 ## 📖 Usage Guide
+<img width="1748" height="984" alt="Screenshot 2025-12-18 111424" src="https://github.com/user-attachments/assets/17ad76c8-7965-483e-85ff-48e0e1dd476e" />
+
+
 
 ### Looking Up Words
 1. **Navigate to any webpage**
@@ -97,12 +116,18 @@ Done! Double-click any word on any webpage to start learning
 3. **View the popup** with comprehensive word information
 4. **Click "Save to Vocabulary"** to add it to your list
 5. **Click 🔊** to hear the pronunciation (if available)
+<img width="731" height="527" alt="Screenshot 2025-12-18 081853" src="https://github.com/user-attachments/assets/0110e8aa-5a05-475e-bccf-e4e4bbd4bd03" />
+<img width="597" height="550" alt="Screenshot 2025-12-18 082005" src="https://github.com/user-attachments/assets/f3df57f1-afa0-4d88-bbb8-c0ebd6db5458" />
+
+
 
 ### Managing Your Vocabulary
 1. **Click the extension icon** in your Chrome toolbar
 2. **View all saved words** in the popup
 3. **Use the search bar** to find specific words
 4. **Click "Remove"** to delete words from your list
+   <img width="683" height="942" alt="Screenshot 2025-12-18 081930" src="https://github.com/user-attachments/assets/95edb36c-51be-4641-82bc-86b45d052ab1" />
+
 
 ### Customizing Reading Experience
 1. **Open the extension popup**
@@ -111,6 +136,11 @@ Done! Double-click any word on any webpage to start learning
 3. **Select a Font Style:**
    - Default, Serif, Sans-serif, or Modern
 4. **Toggle "Hide distracting ads"** on/off
+<img width="1908" height="949" alt="Screenshot 2025-12-18 081747" src="https://github.com/user-attachments/assets/5a0b8f52-03d7-4d61-82e5-ec3b2e05dac7" />
+<img width="1915" height="989" alt="Screenshot 2025-12-18 081736" src="https://github.com/user-attachments/assets/f30fd75a-a346-4b6b-9173-ea2815632fd7" />
+<img width="1843" height="810" alt="Screenshot 2025-12-18 081803" src="https://github.com/user-attachments/assets/2e15df07-b663-4e7c-88b8-827dd7e13b6e" />
+
+
 
 ### Viewing Saved Words on Pages
 - Saved words are **automatically highlighted** with a yellow gradient on all webpages

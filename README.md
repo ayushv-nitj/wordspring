@@ -403,7 +403,7 @@ If you find this extension helpful, please consider:
 
 <div align="center">
 
-**Made with ❤️ for language learners everywhere**
+**Made with ❤️ by Ayush**
 
 [⬆ Back to Top](#-wordspring---vocabulary-builder-chrome-extension)
 

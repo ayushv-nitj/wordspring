@@ -6,15 +6,13 @@
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
 
     <style>
       body {
         margin: 0;
         padding: 16px;
-        width: 380px;
-        max-height: 600px;
-        overflow-y: auto;
+        width: 360px;
         font-family: "Inter", system-ui, sans-serif;
         background: #fdfcf9;
         color: #2b2b2b;
@@ -27,13 +25,6 @@
 
       .title {
         font-family: "Playfair Display", serif;
-        font-size: 24px;
-        font-weight: 600;
-        letter-spacing: 0.3px;
-      }
-
-       .title2 {
-        font-family: "Playfair Display", serif;
         font-size: 18px;
         font-weight: 600;
         letter-spacing: 0.3px;
@@ -45,97 +36,6 @@
         margin-top: 2px;
       }
 
-      /* Reading Mode Controls */
-      .controls-section {
-        background: white;
-        border-radius: 12px;
-        padding: 12px;
-        margin-bottom: 14px;
-        box-shadow: 0 2px 8px rgba(0,0,0,0.04);
-      }
-
-      .control-label {
-        font-size: 11px;
-        font-weight: 600;
-        color: #666;
-        margin-bottom: 8px;
-        text-transform: uppercase;
-        letter-spacing: 0.5px;
-      }
-
-      .mode-buttons {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        gap: 6px;
-        margin-bottom: 12px;
-      }
-
-      .mode-btn {
-        padding: 8px 4px;
-        border: 1px solid #e2e0db;
-        background: white;
-        border-radius: 8px;
-        cursor: pointer;
-        font-size: 11px;
-        text-align: center;
-        transition: all 0.2s;
-      }
-
-      .mode-btn:hover {
-        background: #f5f5f5;
-      }
-
-      .mode-btn.active {
-        background: #6c63ff;
-        color: white;
-        border-color: #6c63ff;
-      }
-
-      .font-buttons {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 6px;
-        margin-bottom: 12px;
-      }
-
-      .font-btn {
-        padding: 8px;
-        border: 1px solid #e2e0db;
-        background: white;
-        border-radius: 8px;
-        cursor: pointer;
-        font-size: 12px;
-        transition: all 0.2s;
-      }
-
-      .font-btn:hover {
-        background: #f5f5f5;
-      }
-
-      .font-btn.active {
-        background: #6c63ff;
-        color: white;
-        border-color: #6c63ff;
-      }
-
-      .checkbox-control {
-        display: flex;
-        align-items: center;
-        gap: 8px;
-        padding: 8px 0;
-      }
-
-      .checkbox-control input[type="checkbox"] {
-        width: 16px;
-        height: 16px;
-        cursor: pointer;
-      }
-
-      .checkbox-control label {
-        font-size: 13px;
-        cursor: pointer;
-      }
-
       /* Search */
       #searchInput {
         width: 100%;
@@ -145,8 +45,7 @@
         background: #ffffff;
         font-size: 13px;
         outline: none;
-        margin: 0 0 14px 0;
-        box-sizing: border-box;
+        margin: 12px 0 14px 0;
       }
 
       #searchInput::placeholder {
@@ -156,6 +55,8 @@
       #searchInput:focus {
         border-color: #b8b3a8;
       }
+
+      
 
       /* List */
       ul {
@@ -219,77 +120,21 @@
         margin-top: 40px;
         font-style: italic;
       }
-
-      /* Divider */
-      .divider {
-        height: 1px;
-        background: #e2e0db;
-        margin: 16px 0;
-      }
     </style>
   </head>
 
   <body>
     <div class="header">
-      <div class="title">WordSpring</div>
-      <div class="subtitle">Your Reading Companion</div>
+      <div class="title">Vocabulary</div>
+      <div class="subtitle">Words you chose to remember</div>
     </div>
-
-    <!-- Reading Mode Controls -->
-    <div class="controls-section">
-      <div class="control-label">Reading Mode</div>
-      <div class="mode-buttons">
-        <button class="mode-btn active" data-mode="default">
-          ☀️<br>Default
-        </button>
-        <button class="mode-btn" data-mode="dark">
-          🌙<br>Dark
-        </button>
-        <button class="mode-btn" data-mode="sepia">
-          📜<br>Sepia
-        </button>
-        <button class="mode-btn" data-mode="paper">
-          📄<br>Paper
-        </button>
-      </div>
-
-      <div class="control-label">Font Style</div>
-      <div class="font-buttons">
-        <button class="font-btn active" data-font="default">
-          Default
-        </button>
-        <button class="font-btn" data-font="serif">
-          Serif
-        </button>
-        <button class="font-btn" data-font="sans-serif">
-          Sans-serif
-        </button>
-        <button class="font-btn" data-font="modern">
-          Modern
-        </button>
-      </div>
-
-
-      <!-- Coming soon 😅-->
-      <!-- <div class="checkbox-control">
-        <input type="checkbox" id="hideAdsCheckbox" checked>
-        <label for="hideAdsCheckbox">Hide distracting ads</label>
-      </div>
-    </div> -->
-
-
-
-    <div class="divider"></div>
-
-    <div class="title2">Your Vocabulary — Words that you saved</div>
-
-    <div class="divider"></div>
 
     <input
       id="searchInput"
       type="text"
       placeholder="Search your words…"
     />
+    
 
     <ul id="wordList"></ul>
 

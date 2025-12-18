@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+
+    <style>
+      body {
+        margin: 0;
+        padding: 16px;
+        width: 360px;
+        font-family: "Inter", system-ui, sans-serif;
+        background: #fdfcf9;
+        color: #2b2b2b;
+      }
+
+      /* Header */
+      .header {
+        margin-bottom: 14px;
+      }
+
+      .title {
+        font-family: "Playfair Display", serif;
+        font-size: 18px;
+        font-weight: 600;
+        letter-spacing: 0.3px;
+      }
+
+      .subtitle {
+        font-size: 12px;
+        color: #7a7a7a;
+        margin-top: 2px;
+      }
+
+      /* Search */
+      #searchInput {
+        width: 100%;
+        padding: 10px 12px;
+        border-radius: 12px;
+        border: 1px solid #e2e0db;
+        background: #ffffff;
+        font-size: 13px;
+        outline: none;
+        margin: 12px 0 14px 0;
+      }
+
+      #searchInput::placeholder {
+        color: #aaa;
+      }
+
+      #searchInput:focus {
+        border-color: #b8b3a8;
+      }
+
+      
+
+      /* List */
+      ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      li {
+        background: #ffffff;
+        border-radius: 16px;
+        padding: 14px 14px 12px 14px;
+        margin-bottom: 12px;
+        box-shadow:
+          0 8px 20px rgba(0,0,0,0.05),
+          0 1px 2px rgba(0,0,0,0.04);
+      }
+
+      .card {
+        display: flex;
+        justify-content: space-between;
+        gap: 12px;
+      }
+
+      /* Word styling */
+      .word {
+        font-family: "Playfair Display", serif;
+        font-size: 16px;
+        font-weight: 600;
+        letter-spacing: 0.2px;
+      }
+
+      .meaning {
+        margin-top: 6px;
+        font-size: 13px;
+        line-height: 1.5;
+        color: #555;
+      }
+
+      /* Delete */
+      .deleteBtn {
+        background: transparent;
+        border: none;
+        color: #c25b5b;
+        font-size: 12px;
+        cursor: pointer;
+        padding: 4px 6px;
+        border-radius: 6px;
+        height: fit-content;
+      }
+
+      .deleteBtn:hover {
+        background: #f7eaea;
+      }
+
+      /* Empty state */
+      .empty {
+        text-align: center;
+        font-size: 13px;
+        color: #888;
+        margin-top: 40px;
+        font-style: italic;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="header">
+      <div class="title">Vocabulary</div>
+      <div class="subtitle">Words you chose to remember</div>
+    </div>
+
+    <input
+      id="searchInput"
+      type="text"
+      placeholder="Search your words…"
+    />
+    
+
+    <ul id="wordList"></ul>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
